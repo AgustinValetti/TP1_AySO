@@ -1,0 +1,239 @@
+ssh-keygen
+ls -la
+cd .ssh
+ls
+ls-la
+ls -la
+cd ..
+ls -la
+pwd
+ls -la
+ls-la
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+ls
+cd 
+ls
+pwd
+sudo apt update
+susudo apt install gitl
+git --version
+pwd
+git clone git@github.com:AgustinValetti/TP1_AySO.git
+cp README TP1_AySO
+ssh -T git@github.com
+ls -la
+cd TP1_AySO
+ls -la
+cd .git
+ls -la
+cd ..
+ls -la
+cd .
+ls 
+cd ..
+ls
+ls -la
+cd TP1_AySO
+whoami
+pwd
+echo "#Proyecto desde VM" > README.md
+git add README.md
+git commit -m "Agregar README Inicial"
+git push origin main
+git commit -m "Agregar README Inicial"
+git config --global user.email "agustinvaletti@gmail.com"
+git config --global user.name "Agustin Valetti"
+git commit -m "Agregar README Inicial"
+git push origin main
+cd
+ls -la
+git status
+cd TP1_AySo
+cd TP1_AySO
+git status
+git branch --unset-upstream
+git status
+git commit -m "Agregar README Inicial"
+git status
+git push origin main
+git push origin master
+ls -la
+chande dir
+cd
+ls
+ls-la
+ls -la
+cd ..
+ls-la
+ls -la
+cd vagrant
+pwd
+mkdir repogit
+cd repogit
+git clonecd repogit
+git clone git@github.com:AgustinValetti/TP1_AySO.git
+cd TP1_AySO
+cd..
+cd ..
+ls -la
+rm -r TP1_AySO
+ls -la
+rm -rf 
+rm -rf ~/TP1_AySO
+ls -la
+cd repogit
+ls -la
+cd TP1_AySO
+git add .
+git commit -m "Repo"
+git push
+git commit -m "Repositorio"
+git push origin master
+ls -la
+echo "# TP1_AySO Agustin Valetti" >> README.md
+git commit -m "Actualizar README"
+git status
+git add README.md
+git commit -m "Actualizar README"
+git push
+ls -la
+cat /etc/os-release
+man grep
+grep -i "home_url" /etc/os-realease
+ls -l /etc/os-release
+grep -i "home_url" ../usr/lib/os-release
+grep -i "home_url" /usr/lib/os-release
+grep "HOME_URL" /etc/os-realease
+grep man
+man grep
+man -G Home_url /etc/os-release
+cat /etc/os-release
+grep -i "HOME_URL" /etc/os-release
+grep -i "home_url" /etc/os-release
+exit
+ls -la
+cd repogit
+ls -la
+cd TP1_AySO
+ls
+ls -l
+cat /etc/os-release
+grep man
+man grep
+grep -i home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep Home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep Home_url /etc/os-release > datos_url.txt
+ls -l
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+cat cpuinfo
+cat /cpuinfo
+cat /proc
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo | awk -F ':' '{print$2}' 
+grep "model name" /proc/cpuinfo | awk -F ':' '{print$2}' | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+cat << FIN >> README.md
+Alumno: Agustin Valetti
+Division: 117
+Turno: Mañana
+FIN
+
+cat README.md
+git add README.md datos_usuarios.txt
+git add README.md
+git add datos_usuarios.txt
+ls 
+git add datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push 
+mkdir -p /{Materia1,Materia2}/uni{1..3}
+sudo mkdir -p /{Materia1,Materia2}/uni{1..3}
+ls -la
+ls
+cd Materia1
+tree TP1_AySO
+install tree
+sudo apt update
+sudo apt install tree
+tree TP_AySO
+ls -la
+cd
+ls -la
+cd repogit
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+tree repogit
+ls -la
+rm -r Materia1
+rm -r Materia2
+ls -la
+rm -r Materia1
+sudo rm -r Materia1
+sudo rm -r Materia2
+ls -la
+cd TP1_AySO
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+tree TP1_AySO
+tree Materia1
+tree TP1_AySO
+tree Materia2
+ls -la
+cat script_dir_sh << "FIN"
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+echo "Comando creacion de carpetas Materia y sus carpetas hijo"
+
+echo "Mostrando arbol de las carpetas"
+tree Materia1 
+cat script_dir_sh << "FIN"
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+echo "Comando creacion de carpetas Materia y sus carpetas hijo"
+
+echo "Mostrando arbol de las carpetas"
+tree Materia1 
+tree Materia2
+FIN
+
+ls -la
+cat script_dir_sh << "FIN"
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+echo "Comando creacion de carpetas Materia y sus carpetas hijo"
+
+echo "Mostrando arbol de las carpetas"
+tree Materia1 
+cat > script_dir_sh << "FIN"
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+echo "Comando creacion de carpetas Materia y sus carpetas hijo"
+
+echo "Mostrando arbol de las carpetas"
+tree Materia1 
+tree Materia2
+FIN
+
+cat > script_dir.sh << "FIN"
+echo "Creacion de carpetas"
+sudo mkdir -p {Materia1,Materia2}/uni{1..3}
+
+echo "Mostrando arbol"
+tree Materia1
+tree Materia2
+FIN
+
+ls -la
+chmod 1 script_dir.sh
+ls -l script_dir.sh
+man history
+history -a
