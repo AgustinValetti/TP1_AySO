@@ -1,1 +1,2 @@
 Usuario=vagrant
+ AMD Ryzen 7 8700F 8-Core Processor
